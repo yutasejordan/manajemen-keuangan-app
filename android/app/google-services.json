@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1030758202635",
+    "project_id": "manajemen-keuangan-app",
+    "storage_bucket": "manajemen-keuangan-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030758202635:android:7c110ce41a2b314a87360e",
+        "android_client_info": {
+          "package_name": "com.example.manajemen_keuangan_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8KZpMLyGsmJq6DIIZRQkSdNAJ6myCZ3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
