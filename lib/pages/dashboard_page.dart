@@ -8,6 +8,8 @@ import '../services/firestore_service.dart';
 import 'add_edit_transaction_page.dart';
 
 class DashboardPage extends StatefulWidget {
+  const DashboardPage({super.key});
+
   @override
   _DashboardPageState createState() => _DashboardPageState();
 }
