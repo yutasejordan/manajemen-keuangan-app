@@ -15,7 +15,6 @@ class TransactionModel {
     required this.date,
   });
 
-  // Konversi ke Map (untuk Firestore)
   Map<String, dynamic> toMap() {
     return {
       'id': id,
@@ -27,7 +26,6 @@ class TransactionModel {
     };
   }
 
-  // Konversi dari Map (dari Firestore)
   factory TransactionModel.fromMap(Map<String, dynamic> map) {
     return TransactionModel(
       id: map['id'],

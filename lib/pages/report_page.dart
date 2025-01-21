@@ -6,7 +6,6 @@ import '../services/firestore_service.dart';
 class ReportPage extends StatelessWidget {
   ReportPage({Key? key}) : super(key: key);
 
-  // Tambahkan formatter untuk Rupiah
   final NumberFormat currencyFormatter = NumberFormat.currency(
     locale: 'id_ID',
     symbol: 'Rp. ',

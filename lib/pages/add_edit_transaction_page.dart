@@ -25,7 +25,6 @@ class _AddEditTransactionPageState extends State<AddEditTransactionPage> {
   void initState() {
     super.initState();
 
-    // Isi data jika mode edit
     if (widget.transaction != null) {
       _descriptionController.text = widget.transaction!.description;
       _amountController.text = widget.transaction!.amount.toString();
